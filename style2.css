@@ -1,0 +1,111 @@
+/* To keep the body the right size so spacing isn't too much.
+Feel free to delete if you want */
+body {
+    background-color: #eee;
+}
+
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 auto;
+    max-width: 800px;
+    background-color:white;
+    height: 100vh;
+}
+/* The list at the top of the screen */
+
+.header {
+    background-color: #717171;
+    clear:both;
+}
+
+.header .title {
+    float: left;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 14px 0 0 14px;
+}
+
+a {
+    color:#ffffff;
+    font-size: 14px;
+    font-family: sans-serif;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li{
+    float: right;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.company{
+    width:0;
+    float:left;
+}
+
+h1 {
+    color: rgb(253, 253, 123);
+    font-family: sans-serif;
+    font-size: 50px;
+
+    background-color: black;
+    margin:0px 0 20px 0;
+    padding:105px;
+    display:flex;
+    justify-content: center;
+}
+
+.paragraph {
+color: dimgray;
+width:390px;
+margin-left:20px;
+float:left;
+}
+.video{
+    width:250px;
+    float:right;
+    margin: 0 100px 0 0;
+}
+
+.box {
+   background-color: lightblue;
+   height: 175px;
+   margin: 10px 5px 10px 5px;
+}
+  
+.rowOne .box {
+   background-color: rgb(162, 247, 211);
+   width: 175px;
+   border-radius: 10px;
+}
+
+  
+.rowTwo .box {
+   background-color:rgb(253, 203, 110);
+   height: 170px;
+   width: 350px;
+   
+}
+
+.rowTwo {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 10px 0;
+ }
+ .rowOne {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ footer{
+    position:fixed;
+    bottom:0px;
+    height:100px;
+    width:800px;
+    margin: 0 auto;
+    background:rgb(78, 64, 110);
+ }
